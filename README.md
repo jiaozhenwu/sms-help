@@ -15,3 +15,10 @@
 - 如果正常出现输入验证码界面，可以接收验证码，把本站下面的验证码复制粘贴即可。
 - 注册成功后，快速走codex登录验证流程（可以事先准备好），到输入手机界面粘贴相同的手机号！使用whatsapp验证！即可在whatsapp 应用接收到验证码！
 
+-大概如下截图
+
+<img width="1179" height="2556" alt="0aafe77f3619ff9085ff6fe3f2dc0e72" src="https://github.com/user-attachments/assets/cdc6aefc-8ee8-4a85-9e32-070b5fa99d9d" />
+
+<img width="1179" height="2556" alt="72c3810ef57f349d2438ae0e70e43ff9" src="https://github.com/user-attachments/assets/1fd4556b-1c48-46b1-9517-fb6b8c805e99" />
+
+<img width="1179" height="2556" alt="9947ca71091522d0665694a65e528db9" src="https://github.com/user-attachments/assets/151abee6-8dd0-46d6-bb29-825c989352ef" />

@@ -16,7 +16,7 @@
 - 注册成功后，快速走codex登录验证流程（可以事先准备好），到输入手机界面粘贴相同的手机号！使用whatsapp验证！即可在whatsapp 应用接收到验证码！
 
 -大概如下截图
--挂梯子 安卓就在谷歌商城搜WhatsApp 
+-挂梯子 安卓就在谷歌商城搜WhatsApp  安卓ios都是手机端下载！！！
 <img width="1179" height="2556" alt="fc21b0ebde8adce4cccce59104e200f1" src="https://github.com/user-attachments/assets/30b291f5-e922-4953-bd5e-760d65ed1363" />
 
 

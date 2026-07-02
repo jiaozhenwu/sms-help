@@ -1,13 +1,24 @@
-## codex/openai 登录验证
-- 这种注册方式，一般节点环境干净的话不会被封！
-- 
-### OpenAI 官方明确不支持：
-- 固定电话
-- VoIP 网络号码
-- Google Voice
-- 高费率号码 / Premium Number
+## 新设备、新网络、新地区登录会触发风控 所以 codex/openai 登录需要验证
+- OpenAI 登录时可能会要求一次性验证码，用来确认是不是本人登录，尤其是从新设备或新位置登录时。
+- 所以最近如果很多人用了：
+- VPN / 代理 / 节点频繁切换；
+- 手机、电脑、服务器、远程桌面来回登录；
+- 浏览器 Cookie 被清掉；
+- 同一个账号多人、多地登录；
+- Codex CLI、ChatGPT、API 平台混合登录；
+- 就更容易被判定为“需要重新确认身份”。
 
-在部分支持地区才会额外提供 WhatsApp 验证。  
+### 验证过后会不会再次出现二次验证
+- 官网明确说明 不会！
+- 如果你选择的国家/地区支持 WhatsApp 验证，屏幕可能会提示你，一次性验证码将发送到你在 WhatsApp 上的号码。
+- 现在，在 platform.openai.com 上生成初始 API 密钥时必须进行手机验证，但之后生成任何后续 API 密钥时则不需要。
+- https://help.openai.com/zh-hans-cn/articles/8983040-what-does-phone-verification-look-like?utm_source=chatgpt.com
+- 所以不会出现二次验证！！！
+
+### 可以直接注册的国家有哪些
+- https://help.openai.com/zh-hans-cn/articles/10388702-phone-only-signups?utm_source=chatgpt.com
+
+### 在部分支持地区才会额外提供 WhatsApp 验证。  
 - 知：<https://help.openai.com/en/articles/8983038-which-countries-do-you-support-for-whatsapp-phone-verification>
 - WhatsApp 注册流程：[sms-help](https://faq.whatsapp.com/684051319521343/?cms_platform=iphone&helpref=platform_switcher&locale=zh_CN)
 - 在购买号码后直接复制号码到 whatsapp注册流程上，可以先选择国家再复制号码，复制完号码注意下号码有没有和前面的国家区号重复！！如果重复请删除重复的区号！

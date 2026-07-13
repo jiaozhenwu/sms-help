@@ -1,5 +1,7 @@
+### 方法1、可以直接发码或注册的国家有哪些
+- https://help.openai.com/zh-hans-cn/articles/10388702-phone-only-signups?utm_source=chatgpt.com
 
-### 使用官方支持的方法！所以最稳！  WhatsApp 验证！
+### 方法2、使用官方支持的方法！所以最稳！  WhatsApp 验证！
 
 ## 新设备、新网络、新地区登录会触发风控 所以 codex/openai 登录需要验证
 - OpenAI 登录时可能会要求一次性验证码，用来确认是不是本人登录，尤其是从新设备或新位置登录时。
@@ -17,9 +19,6 @@
 - 现在，在 platform.openai.com 上生成初始 API 密钥时必须进行手机验证，但之后生成任何后续 API 密钥时则不需要。
 - https://help.openai.com/zh-hans-cn/articles/8983040-what-does-phone-verification-look-like?utm_source=chatgpt.com
 - 所以即使出现二次验证，只要你到WhatsApp不变，还用这个号这个app接收就可以了！！！
-
-### 可以直接发码或注册的国家有哪些
-- https://help.openai.com/zh-hans-cn/articles/10388702-phone-only-signups?utm_source=chatgpt.com
 
 ### 在部分支持地区会提供 WhatsApp 验证。官方支持！所以最稳！  
 - 知：<https://help.openai.com/en/articles/8983038-which-countries-do-you-support-for-whatsapp-phone-verification>
